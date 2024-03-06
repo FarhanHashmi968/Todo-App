@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1rem = 62.5% = 10px; */
+
+}
+
+body {
+    background-color: black;
+    color: white
+}
+
+.heading {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-block: 8rem;
+    font-size: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addButtonMain {
+    font-size: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#askSection button:hover {
+    background-color: rgb(164, 19, 19);
+}
+
+.addButtonMain:hover {
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.addButton {
+    display: flex;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 2rem;
+    width: 5rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    border: 2px solid red;
+    background-color: white;
+    width: 35rem;
+    min-height: 40rem;
+    border-radius: 10px;
+    padding: 2rem;
+    display: none;
+    justify-content: center;
+    margin: 2rem;
+}
+
+#mainContainer {
+    display: flex;
+    padding: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.displayArea h2 {
+    color: black;
+    font-size: 3rem;
+    border-bottom: 1px solid rgb(90, 89, 89);
+    padding: 1rem;
+    word-wrap: break-word;
+}
+
+
+.content {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.todoinnerText {
+    width: 19rem;
+    word-wrap: break-word;
+}
+
+.innerTodospace {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1.5rem;
+    align-items: center;
+}
+
+
+.markButton {
+    display: flex;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(116, 115, 115);
+    min-width: 9rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+.markButton:hover {
+    background-color: rgb(46, 45, 45);
+
+}
+
+
+.iskoLganaHaiBadMein {
+    text-decoration: line-through;
+}
+
+.deleteAddArea {
+    margin-block: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.material-symbols-outlined {
+    color: red;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    color: darkred;
+}
+
+.insideAddButton {
+    margin-left: 1rem;
+    padding: 1rem;
+    display: flex;
+    font-size: 4rem;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.insideAddButton:hover {
+    border: 2px solid black;
+}
+
+
+#askSection,
+#askSectionInside {
+    display: none;
+    background-color: white;
+    color: black;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    border-radius: 10px;
+}
+
+#showBazi {
+    display: none;
+}
+
+#askSection h2,
+#askSectionInside h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#askSection input,
+#askSectionInside input {
+    width: 40rem;
+    height: 3rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#askSection div,
+#askSectionInside div {
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+}
+
+#askSection button,
+#askSectionInside button {
+    height: 4rem;
+    width: 6rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#askSection button:hover,
+#askSectionInside button:hover {
+    background-color: rgb(164, 19, 19);
+}
+
+
+@media screen and (max-width: 1000px) {
+    html {
+        font-size: 56%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    html {
+        font-size: 46%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    html {
+        font-size: 30%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    html {
+        font-size: 25%;
+    }
+}
